@@ -3,7 +3,7 @@ import assert from 'assert';
 import React from 'react';
 import ReactDOM from 'react-dom/server';
 
-import longTextToReactMarkup from './index.jsx';
+import textToReactMarkup from './index.jsx';
 
 const longText = `Nel mezzo del cammin di nostra vita
 mi ritrovai per una selva oscura,
@@ -22,7 +22,7 @@ const reactMarkup = `<div><p><span>Nel mezzo del cammin di nostra vita<br/></spa
 assert.equal(
 	ReactDOM.renderToStaticMarkup(
 		<div>
-			{longTextToReactMarkup(longText)}
+			{textToReactMarkup(longText)}
 		</div>
 	),
 	reactMarkup

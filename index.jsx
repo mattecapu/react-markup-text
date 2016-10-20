@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function longTextToReactMarkup(text) {
+export default function textToReactMarkup(text) {
 	return text.split("\n\n")
 		.map((par, i) =>
 			<p key={i}>
