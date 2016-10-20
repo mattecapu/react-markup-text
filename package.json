@@ -1,0 +1,38 @@
+{
+  "name": "react-long-text-markup",
+  "version": "1.0.0",
+  "description": "add <p>s and <br/>s to long texts",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node test.jsx",
+    "build": "babel index.jsx > index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattecapu/react-long-text-markup.git"
+  },
+  "keywords": [
+    "react",
+    "long-text",
+    "markup",
+    "paragraphs",
+    "html"
+  ],
+  "author": "Matteo Capucci <mattecapu@live.it>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattecapu/react-long-text-markup/issues"
+  },
+  "homepage": "https://github.com/mattecapu/react-long-text-markup#readme",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "peerDependencies": {
+    "react": "^15.3.2"
+  }
+}
