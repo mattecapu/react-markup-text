@@ -5,10 +5,12 @@ export default function textToReactMarkup(text) {
 		return [];
 	}
 	return text.split("\n\n")
+		.filter(x => x !== '')
 		.map((par, i) =>
 			<p key={i}>
 			{
 				par.split("\n")
+					.filter(x => x !== '')
 					.map((line, i) =>
 						<span key={i}>{line}<br /></span>
 					)
