@@ -1,6 +1,6 @@
 {
   "name": "react-markup-text",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "add &lt;p&gt;s and &lt;br/&gt;s to texts",
   "main": "index.js",
   "scripts": {
